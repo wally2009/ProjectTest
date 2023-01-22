@@ -14,9 +14,12 @@ void  sap(int *x, int *y){
 
 int main(){
 	
-	int a = 10; 
-	int b = 20; 
-
+	int a ;
+	int b ;
+	printf("\nEnter a :"); 
+	scanf("%d", &a); 
+	printf("\nEnter b :" ); 
+	scanf("%d", &b); 
 	printf("\nBefore Swap\n\n a = %d b = %d\n", a, b); 
 	sap(&a, &b); 
 	printf("\nAfter Swap\n\n a = %d  b = %d\n", a, b); 
